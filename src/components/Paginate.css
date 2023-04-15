@@ -1,0 +1,40 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .page-number {
+    background-color: rgb(188, 188, 217);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .active {
+    background-color: rgb(79, 79, 137);
+  }
+  .break-class{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+  }
+  .next{
+   font-size: 25px;
+   font-weight: 400;
+   margin-top: -8px;
+   margin-left: 10px;
+  }
+  .previous{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -8px;
+    margin-right: 10px;
+  }
+  
+  
